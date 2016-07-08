@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		496921961D20AC250009229E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 496921951D20AC250009229E /* main.cpp */; };
+		49F2CB621D2B6EE300B3634B /* Functions.h in Sources */ = {isa = PBXBuildFile; fileRef = 49F2CB611D2B6EE300B3634B /* Functions.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4922EEFB1D2C5ED700E29D7F /* Statement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Statement.h; sourceTree = "<group>"; };
 		496921921D20AC250009229E /* Dynamic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Dynamic; sourceTree = BUILT_PRODUCTS_DIR; };
 		496921951D20AC250009229E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4969219C1D20AC450009229E /* main.dyn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.dyn; sourceTree = "<group>"; };
+		4986025F1D2AFCCC00A5A420 /* test.dyn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.dyn; sourceTree = "<group>"; usesTabs = 1; };
+		49F2CB611D2B6EE300B3634B /* Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Functions.h; sourceTree = "<group>"; };
+		49F2CB641D2B72E200B3634B /* DNObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNObject.h; sourceTree = "<group>"; };
+		49F2CB651D2B736400B3634B /* Parse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parse.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +64,13 @@
 		496921941D20AC250009229E /* Dynamic */ = {
 			isa = PBXGroup;
 			children = (
+				49F2CB641D2B72E200B3634B /* DNObject.h */,
+				4922EEFB1D2C5ED700E29D7F /* Statement.h */,
+				49F2CB611D2B6EE300B3634B /* Functions.h */,
+				49F2CB651D2B736400B3634B /* Parse.h */,
 				496921951D20AC250009229E /* main.cpp */,
+				4986025F1D2AFCCC00A5A420 /* test.dyn */,
+				4969219C1D20AC450009229E /* main.dyn */,
 			);
 			path = Dynamic;
 			sourceTree = "<group>";
@@ -119,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				496921961D20AC250009229E /* main.cpp in Sources */,
+				49F2CB621D2B6EE300B3634B /* Functions.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +253,7 @@
 				4969219B1D20AC250009229E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

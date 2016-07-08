@@ -1,0 +1,13 @@
+
+
+set("swag","none");
+
+set("swag",(){
+    this("value","none");
+});
+
+
+set("var1","Hello World!");
+
+
+print(@var1);
